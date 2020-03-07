@@ -4,7 +4,7 @@ PSORG=$PS1;
 PROMPT_COMMAND_ORG=$PROMPT_COMMAND;
 
 if [ -n "${BASH_VERSION}" ]; then
-    DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+    DIR="$( cd "$( dirname "${BASH_SOURCE}" )" && pwd )"
     source ${DIR}/base.sh
 
     : ${omg_ungit_prompt:=$PS1}
