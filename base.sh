@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function enrich {
     local flag=$1
     local symbol=$2
